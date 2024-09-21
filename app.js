@@ -1,3 +1,9 @@
+/**
+ * The above JavaScript code is a simple number guessing game where the user has to guess a random
+ * number between 1 and 100 within 10 attempts.
+ * @param guess - The `guess` parameter represents the user's input guess in the number guessing game.
+ * It is a number that the user enters to try and guess the randomly generated number.
+ */
 let randomNumber = parseInt(Math.random() * 100 + 1);
 const userInput = document.querySelector("#guessField");
 const guessSubmit = document.querySelector("#subt");
